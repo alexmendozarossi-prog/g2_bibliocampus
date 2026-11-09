@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
   templateUrl: './libro-card.html',
 })
 export class LibroCard {
-  titulo:string = "La ciudad de los perros";
-  autor:string = "Mario Vargas Lloza";
-  anio:number = 1985;
-  categoria:string = "Obra Literaria";
+  titulo:string = "Clean Code";
+  autor:string = "Robert C. Martin";
+  anio:number = 2008;
+  categoria:string = "Buenas Prácticas";
   copias:number = 3;
 }
