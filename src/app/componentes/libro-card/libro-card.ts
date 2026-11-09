@@ -11,5 +11,5 @@ export class LibroCard {
   autor:string = "Mario Vargas Lloza";
   anio:number = 1985;
   categoria:string = "Obra Literaria";
-  copias:number = 4;
+  copias:number = 3;
 }
