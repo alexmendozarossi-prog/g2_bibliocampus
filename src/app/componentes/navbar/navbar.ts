@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.css',
   templateUrl: './navbar.html',
 })
-export class Navbar {}
+export class Navbar {
+  nombre:string = 'Alex Mendoza R.';
+  rol:string = 'ESTUDIANTE';
+}

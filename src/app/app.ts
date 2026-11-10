@@ -5,7 +5,7 @@ import { Navbar } from './componentes/navbar/navbar';
 import { LibroLista } from './componentes/libro-lista/libro-lista';
 
 @Component({
-  imports: [RouterOutlet, Navbar, LibroLista, LibroCard],
+  imports: [RouterOutlet, Navbar, LibroLista],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
